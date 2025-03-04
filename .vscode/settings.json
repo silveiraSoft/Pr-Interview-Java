@@ -1,6 +1,9 @@
 {
     "java.project.sourcePaths": [
-        "Repetition"
+        "Repetition",
+        "Interception",
+        "AverageLess3Max",
+        "GroupByLength"
     ],
     "java.project.referencedLibraries": []
 }
