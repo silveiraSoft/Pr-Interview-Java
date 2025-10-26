@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainV2",
+            "request": "launch",
+            "mainClass": "MainV2",
+            "projectName": "Pr-Interview-Java_b60b743b"
+        },
+        {
+            "type": "java",
+            "name": "AverageLess3MaxMain",
+            "request": "launch",
+            "mainClass": "AverageLess3MaxMain",
+            "projectName": "Pr-Interview-Java_b60b743b"
+        },
+        {
+            "type": "java",
+            "name": "EjemploMain",
+            "request": "launch",
+            "mainClass": "EjemploMain",
+            "projectName": "Pr-Interview-Java_b60b743b"
+        },
+        {
+            "type": "java",
             "name": "RepetitionMain",
             "request": "launch",
             "mainClass": "RepetitionMain",

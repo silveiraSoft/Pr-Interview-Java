@@ -1,9 +1,10 @@
 {
     "java.project.sourcePaths": [
-        "AverageLess3Max",
-        "GroupByLength", 
-        "Interception",
-        "Repetition"
+      "Repetition",
+      "Interception",
+      "GroupByLength",
+      "AverageLess3Max",
+      "Ejemplo"
     ],
     "java.project.outputPath": "bin"
 }
