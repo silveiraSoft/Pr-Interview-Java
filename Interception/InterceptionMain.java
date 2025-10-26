@@ -4,7 +4,7 @@ import java.util.Set;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Main {
+public class InterceptionMain {
      public static String FindIntersectionV1(String[] strArr) {
     Set<Integer> set1 = Arrays.stream(strArr[0].split(", "))
                         .map(Integer::parseInt)

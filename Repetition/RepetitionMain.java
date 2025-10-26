@@ -1,12 +1,10 @@
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 
-
-public class Main {
+public class RepetitionMain {
     public static String countRepeatedConsecutive(String strArg) {
         char[] charArray = strArg.toCharArray();
         int count = 1;

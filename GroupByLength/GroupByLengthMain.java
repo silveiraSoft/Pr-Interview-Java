@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class Main {
+public class GroupByLengthMain {
 
     public static void groupByLengthAndCountV1(List<String> words) {
         // Group words by length
@@ -27,7 +27,7 @@ public class Main {
     
     public static void main(String[] args) {
         List<String> words = Arrays.asList("Hello", "World", "in", "a", "frame", "hi");
-        //List<String> words = List.of("Hello", "World", "in", "a", "frame", "hi");
+        List<String> words1 = List.of("Hello", "World", "in", "a", "frame", "hi");
         groupByLengthAndCountV1(words);
         Map<Integer, Long> map1 = groupByLengthAndCountV2(words);
         System.out.println(map1);

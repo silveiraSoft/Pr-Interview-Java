@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class Main {
+public class AverageLess3MaxMain {
     public static void main(String[] args) {
         Integer[] numbers = {10, 2, 13, 4, 5, 16, 7, 8, 9};
         /* 
@@ -29,7 +29,7 @@ public class Main {
         Integer[] numbersAux = Arrays.copyOfRange(numbers, 0, numbers.length - 3);
        
         System.out.println(Arrays.toString(numbersAux));
-        //System.out.println(numbersAux.toString());
+    //System.out.println(numbersAux.toString());
         //calculate average of numbersAux using stream
 
         double average = Arrays.stream(numbersAux).mapToInt(Integer::intValue).average().getAsDouble();
