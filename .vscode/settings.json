@@ -3,8 +3,9 @@
       "Repetition",
       "Interception",
       "GroupByLength",
+      "Ejemplo",
       "AverageLess3Max",
-      "Ejemplo"
+      "AverageAgeAllListPerson"
     ],
     "java.project.outputPath": "bin"
 }

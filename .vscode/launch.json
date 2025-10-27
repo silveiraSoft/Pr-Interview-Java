@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AverageAgeAllListPerson",
+            "request": "launch",
+            "mainClass": "AverageAgeAllListPerson",
+            "projectName": "Pr-Interview-Java_b60b743b"
+        },
+        {
+            "type": "java",
             "name": "MainV2",
             "request": "launch",
             "mainClass": "MainV2",
