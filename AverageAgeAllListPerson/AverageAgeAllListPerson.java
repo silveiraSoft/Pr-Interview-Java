@@ -117,4 +117,10 @@ public class AverageAgeAllListPerson {
                     p -> p.getName().substring(0, 1).toLowerCase() + p.getName().substring(1),
                     Collectors.averagingInt(Person::getAge)));
     }
+
+    public static List<String> convertFirstCharacterNameInLowerCaseV2(List<Person> persons) {
+        return  persons.stream()
+                .map(p -> p.getName().substring(0, 1).toLowerCase() + p.getName().substring(1))
+                .toList();
+    }
 }
