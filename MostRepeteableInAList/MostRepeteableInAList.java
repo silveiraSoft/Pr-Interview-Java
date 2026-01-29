@@ -69,11 +69,11 @@ public class MostRepeteableInAList {
     public static void main(String[] args) {
         List<String> words = Arrays.asList("Hello", "World", "in", "a", "frame", "hi");
         System.out.println(mostRepeteableInAList(words));
-        
+        List<Integer> numbers = Arrays.asList(12, 45, 7, 89, 23, 45, 7, 12, 99, 34, 56, 7, 45, 18, 7, 62, 45, 29, 12, 73, 7, 81, 45, 19, 33, 12, 7, 45, 90, 61, 45, 7, 27, 45, 88, 12, 7, 39, 45, 55, 12, 7, 46, 72, 7, 45, 11, 12, 7, 30);
         System.out.println(mostRepeteableInAListV2(numbers).map(r->{
             return r.getKey() +"-"+ r.getValue();
         }).orElse("Error"));
-        List<Integer> numbers = Arrays.asList(12, 45, 7, 89, 23, 45, 7, 12, 99, 34, 56, 7, 45, 18, 7, 62, 45, 29, 12, 73, 7, 81, 45, 19, 33, 12, 7, 45, 90, 61, 45, 7, 27, 45, 88, 12, 7, 39, 45, 55, 12, 7, 46, 72, 7, 45, 11, 12, 7, 30);
+        
         System.out.println(mostRepeteableInAListV3(numbers).map(r->{
             return r.getKey() +"-"+ r.getValue();
         }).orElse("Error"));
